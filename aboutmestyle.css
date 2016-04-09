@@ -1,0 +1,100 @@
+body {
+  /*Typography Declarations*/
+  color: #222222 ;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue" , sans-serif;
+  
+}
+.white-box {
+  background-color: gold;
+  opacity: .8 ;
+  width: 50% ;
+  margin: 0 auto ;
+ border-radius: 100px 100px 100px 100px; 
+  }
+.white-box:hover {
+  opacity: 1 ;
+}
+a {
+  /*typography declarations*/
+  text-decoration: none ;
+  color: #c33022 ;
+  font-weight: bold ;
+  }
+a:hover {
+  /*I REALLY LIKE HOVER*/
+  Color: #E80C7A ;
+  opacity: .7 ;
+  }
+
+.masthead-intro, .masthead-heading, .content-footer {
+  text-align : center;
+  }
+
+.masthead {
+  padding: 5em 0;
+  background-image: url('https://farm8.staticflickr.com/7270/7839409338_4939c1e405_o.jpg') ;
+  background-size: cover ;
+  background-position: 00 ;
+  background-repeat: no-repeat ;
+  border-top: solid 2em #ffcc00;
+  }
+
+.masthead-intro {
+  /*Layout Declaration*/
+  margin-bottom : 0.1em;
+  font-family: "Gentium Book Basic" , Georgia, serif ; 
+  font-size: 2em; 
+  }
+
+.masthead-heading {
+  /*Layout Declarations*/
+  margin-top: -0.2em ;
+  /*Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue" , sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing:-0.02em;   
+  text-transform: uppercase ;  
+  /*Styling effects of Typography*/
+  text-shadow: 1px 1px 10px GREEN ;
+  
+}
+
+.introduction-section, .location-section , .questions-section {
+ max-width: 38em ;
+ margin-left: auto ;
+ margin-right: auto ;
+ margin-top:2em;   
+}
+section > h1 {
+  margin-top: 2em ; 
+  font-size: 2em;
+  }
+
+.introduction-section > p , .location-section > p , .questions-section > p {
+  /*Typography Declarations*/
+  font-weight: 300 ;
+  letter-spacing: 0.05em;
+}
+.questions-section >h2 {
+  family-font: "Gentium Book Basic", Georgia, serif;
+  font-size:1.2em; 
+  font-weight: bold ;
+  /*Layout*/
+  margin: 2em 0 1em 0 ;
+  color: #FFC407;
+}
+.social > li {
+  display: inline-block ; 
+  padding: .5em;
+}
+.content-footer {
+  /*RGB format */
+  background-color: #FF7489 ;
+  padding: 2em ;
+}
+.content-footer > p {
+    color: #FFC407;
+  font-weight: bolder
+   }
